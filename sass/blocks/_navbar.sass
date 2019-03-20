@@ -1,0 +1,39 @@
+.navbar
+  background-color: #ffffff
+  height: 55px
+  width: 100% 
+  box-shadow: 0 21px 21px rgba(0, 0, 0, 0.28)
+  opacity: 0.9
+  &-block
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 55px
+    width: 100%
+  &-text
+    display: flex
+    justify-content: space-between
+    flex-basis: 70.5%
+    &-block
+      text-decoration: none
+      flex-basis: 100%/6
+      background-color: #ffffff
+      margin-right: 33px 
+      font-size: 14px
+      line-height: 18px
+      color: #000000
+      border-bottom: 1px solid #afafaf
+      background-color: #ffffff
+      +med
+  &-feedback
+    text-align: right
+    &__phone
+      font-size: 17px
+      line-height: 20px
+      color: $text-color
+      +bold
+    &__href
+      font-size: 14px
+      line-height: 18px
+      color: $button-color
+      +med

@@ -1,0 +1,102 @@
+.recomend
+  height: 758px
+  background-color: #e8e8e8
+  &-block
+    height: 753px
+  &__title
+    text-align: center
+    padding-top: 96px
+    font-size: 36px
+    +med
+    margin-bottom: 24px
+  &__line
+    margin: auto
+    width: 31px
+    height: 2px
+    background-color: #23bac1
+    margin-bottom: 36px
+  &__subtitle
+    font-size: 20px
+    +reg
+    text-align: center
+    margin-bottom: 100px
+  &-slider
+    &__item
+      display: flex
+      justify-content: center
+      flex-direction: row
+      outline: none
+      padding-bottom: 15px
+  &__img
+    margin-right: 87px
+    display: inline-block
+  &-text
+    display: inline-flex
+    flex-direction: column
+    top: 0
+    &__title
+      font-size: 24px
+      +med
+      margin-bottom: 43px
+    &-description
+      &__description
+        font-size: 12px
+        +reg
+        line-height: 20px
+        margin-bottom: 7px
+        color: #7f7f7f
+      &__text
+        font-size: 16px
+        +reg
+        line-height: 20px
+        margin-bottom: 50px
+  &-values
+    display: flex
+    justify-content: space-between
+    width: 100%
+    margin-bottom: 64px
+    &-scale
+      display: inline-block
+      flex-basis: 100%/3
+    &__scale
+      display: inline-block
+      font-size: 12px
+      +reg
+      line-height: 20px
+      margin-bottom: 13px
+    &-amount
+      display: inline-block
+      font-size: 16px
+      +reg
+      line-height: 20px
+  &__button
+    width: 216px
+    height: 60px
+    background-color: $button-color
+    border: none
+    font-size: 13px
+    +sbold
+    text-transform: uppercase
+    // Text style for ", Заказать"
+    letter-spacing: 0.33px
+    color: white
+  &-slide
+    //display: relative
+.recomend-arrows
+  position: relative
+  width: 100%
+  display: flex
+  justify-content: space-between
+  top: -185px
+  &__left, &__right
+    &:hover
+      cursor: pointer
+  &__left
+    //position: relative
+    //left: 250px
+    //top: 150px
+    right: 120px
+  &__right
+    //position: relative
+    //top: 150px
+    left: 120px

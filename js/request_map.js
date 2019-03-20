@@ -7,8 +7,8 @@ function init () {
     $('#map').hover(function () {
             if (!myMap) {
                 myMap = new ymaps.Map('map', {
-                    center: [55.010251, 82.958437], // Новосибирск
-                    zoom: 9
+                    center: [55.850479, 37.537955], // Новосибирск
+                    zoom: 18
                 }, {
                     searchControlProvider: 'yandex#search'
                 });
